@@ -3,7 +3,6 @@ body {
   text-align: center;
   /* color: white; */
 }
-
 #loading {
   margin: 100px auto;
   padding: 0 auto;
@@ -12,4 +11,8 @@ body {
   display: flex;
   flex-direction: row;
   margin: 350px 100px 0px 900px;
+}
+::-webkit-scrollbar{
+  display: none;
+
 }

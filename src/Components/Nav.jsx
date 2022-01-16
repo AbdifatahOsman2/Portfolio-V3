@@ -44,10 +44,10 @@ const Nav = (props) => {
   return (
     <AppBar
       position="absolute"
-      style={{ background: "transparent", boxShadow: "none" }}
+      style={{ background: "transparent", boxShadow: "none", marginTop:"15px" }}
     >
       <Container maxWidth="xl">
-        <Toolbar disableGutters>
+        <Toolbar disableGutters data-aos="slide-down" data-aos-delay="300">
           <Typography
             id="logo-text"
             variant="h6"
@@ -55,7 +55,7 @@ const Nav = (props) => {
             component="div"
             sx={{ mr: 2, display: { xs: "none", md: "flex" } }}
           >
-            New App
+            Abdifatah Osman
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -93,8 +93,8 @@ const Nav = (props) => {
               >
                 <Typography textAlign="center">
                   <ListItem>Home</ListItem>
-                  <ListItem>All Posts</ListItem>
-                  <ListItem>Blog</ListItem>
+                  <ListItem>Projects</ListItem>
+                  <ListItem>About</ListItem>
                 </Typography>
               </MenuItem>
             </Menu>
@@ -107,39 +107,32 @@ const Nav = (props) => {
             component="div"
             sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
           >
-            New App
+            Abdifatah Osman
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          <Box style={{}} sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             <Button
-              style={{ color: "white" }}
+              style={{ color: "white",  }}
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
             >
               home
             </Button>
             <Button
-              style={{ color: "white" }}
+              style={{ color: "white", marginLeft:"15px" }}
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
             >
-              Posts
+              Projects
             </Button>
             <Button
-              style={{ color: "white" }}
+              style={{ color: "white", marginLeft:"15px" }}
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
             >
-              Blog
+              About
             </Button>
           </Box>
 
-          <Box sx={{ flexGrow: 0 }}>
-            <Typography component="div">
-              <Button variant="outlined" color="secondary" size="large">
-                Register
-              </Button>
-            </Typography>
-          </Box>
 
           {props.user ? (
             <>
