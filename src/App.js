@@ -36,7 +36,9 @@ function App() {
             {/* components here will have to Navbar */}
             <>
               <Nav />
-              <Route exact path="/" component={Home} />
+              <Route path="/">
+                <Home/>
+              </Route>
             </>
           </Switch>
         </>

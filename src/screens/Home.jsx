@@ -57,7 +57,6 @@ const Home = () => {
       </section>
       <section className="section-three">
           <h1>Section 3</h1>
-          
       </section>
     </>
   );

@@ -142,20 +142,20 @@
   }
 }
 
-// @media screen and (max-width: 480px) {
-//   .section-one {
-//     .container {
-//       img{
-//         max-width: 100vh;
-//       }
-//       h1 {
-//         font-size: 10px;
-//         width: auto;
-//       }
-//       p{
-//         width: auto;
-//         font-size: 10px;
-//       }
-//     }
-//   }
-// }
+@media screen and (max-width: 480px) {
+  .section-one {
+    .container {
+      img{
+        max-width: 100vh;
+      }
+      h1 {
+        font-size: 10px;
+        width: auto;
+      }
+      p{
+        width: auto;
+        font-size: 10px;
+      }
+    }
+  }
+}
