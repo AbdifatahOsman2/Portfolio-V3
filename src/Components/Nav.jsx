@@ -92,7 +92,7 @@ const Nav = (props) => {
                 onClick={handleCloseNavMenu}
               >
                 <Typography textAlign="center">
-                  <ListItem>Home</ListItem>
+                  <ListItem>Connect</ListItem>
                   <ListItem>Projects</ListItem>
                   <ListItem>About</ListItem>
                 </Typography>
@@ -111,13 +111,15 @@ const Nav = (props) => {
           </Typography>
           <Box style={{}} sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             <Button
+            href="#connect"
               style={{ color: "white",  }}
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
             >
-              home
+              Connect
             </Button>
             <Button
+            href="#projects"
               style={{ color: "white", marginLeft:"15px" }}
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
@@ -127,6 +129,7 @@ const Nav = (props) => {
             <Button
               style={{ color: "white", marginLeft:"15px" }}
               onClick={handleCloseNavMenu}
+              href='#about-me'
               sx={{ my: 2, color: "white", display: "block" }}
             >
               About
