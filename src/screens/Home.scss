@@ -1,3 +1,5 @@
+.content{
+
 .section-one {
   .container {
     position: relative;
@@ -52,7 +54,6 @@
     }
   }
 }
-
 .section-two{
   height: 110vh;
   color: white;
@@ -347,9 +348,6 @@
     }
   }
 }
-
-
-
 .section-three{
   background-color: #307af269;
   height: 60vh;
@@ -371,7 +369,6 @@
   }
 
 }
-
 .section-four{
   background-color: #201a1f;
   height: 100vh;
@@ -380,7 +377,8 @@
     h1{
       margin-top: 5px;
       font-size: 40px;
-      font-family: 'Aleo', serif;
+      letter-spacing: 8px;
+      font-family: 'Roboto', serif;
       color: white;
     }
 
@@ -504,7 +502,6 @@
   }
 
 }
-
 .section-five{
   background-color: #3079f2;
   height: 100vh;
@@ -601,6 +598,9 @@
   
 
 }
+  
+}
+
 @media screen and (max-width: 480px) {
   .section-one {
     .container {
@@ -608,8 +608,8 @@
         max-width: 100vh;
       }
       h1 {
-        font-size: 10px;
-        width: auto;
+        font-size: 0px;
+        max-width: auto;
       }
       p{
         width: auto;

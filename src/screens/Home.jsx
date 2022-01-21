@@ -22,7 +22,7 @@ const Home = () => {
   }, []);
 
   return (
-    <>
+    <div className="content">
       <section className="section-one">
         <div className="container">
           <img src={bg} />
@@ -163,7 +163,7 @@ const Home = () => {
       </div>
 <p id="cp">Copyright © 2022 Abdifatah Osman</p>
       </section>
-    </>
+    </div>
   );
 };
 

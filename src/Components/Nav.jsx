@@ -90,10 +90,25 @@ const Nav = (props) => {
               <MenuItem
                 style={{ display: "flex" }}
                 onClick={handleCloseNavMenu}
+                href="#connect"
               >
                 <Typography textAlign="center">
                   <ListItem>Connect</ListItem>
+                </Typography>
+              </MenuItem>
+              <MenuItem
+                style={{ display: "flex" }}
+                onClick={handleCloseNavMenu}
+              >
+                <Typography textAlign="center">
                   <ListItem>Projects</ListItem>
+                </Typography>
+              </MenuItem>
+              <MenuItem
+                style={{ display: "flex" }}
+                onClick={handleCloseNavMenu}
+              >
+                <Typography textAlign="center">
                   <ListItem>About</ListItem>
                 </Typography>
               </MenuItem>
