@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <div className="content">
-      <section className="section-one">
+      <section id="top" className="section-one">
         <div className="container">
           <img src={bg} />
           <h1 data-aos="slide-up">Software Engineer, Designer and Game Developer </h1>
@@ -161,7 +161,10 @@ const Home = () => {
       <button className="btn4">  <i class="fas fa-envelope-square"></i> Send me an Email</button>
       </Link>
       </div>
-<p id="cp">Copyright © 2022 Abdifatah Osman</p>
+      <p id="cp">Copyright © 2022 Abdifatah Osman</p>
+      <Link href="#top">
+      <i id="chevron" class="fas fa-chevron-up"></i>
+      </Link>
       </section>
     </div>
   );
