@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "@material-ui/core";
 import { Button } from "@material-ui/core";
+
 import bg from "../Assets/BG (1).png";
 import p1 from '../Assets/Classes Page.png'
 import p2 from "../Assets/Register-PageReg.png"
