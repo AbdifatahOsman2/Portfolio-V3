@@ -108,6 +108,7 @@ const Home = () => {
         <p>I enjoy creating simple and structural content with clean design patterns and thoughtful interactions.</p>
         <ul>
           <li>React</li>
+          <li>React Native</li>
           <li>Javascript</li>
           <li>CSS3</li>
           <li>HTML5</li>
@@ -124,6 +125,7 @@ const Home = () => {
           <li>Node JS</li>
           <li>Express</li>
           <li>Python</li>
+          <li>C#</li>
           <li>MongoDb</li>
         </ul>
         </div>

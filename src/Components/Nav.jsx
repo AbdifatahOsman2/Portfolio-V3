@@ -44,7 +44,11 @@ const Nav = (props) => {
   return (
     <AppBar
       position="absolute"
-      style={{ background: "transparent", boxShadow: "none", marginTop:"15px" }}
+      style={{
+        background: "transparent",
+        boxShadow: "none",
+        marginTop: "15px",
+      }}
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters data-aos="slide-down" data-aos-delay="300">
@@ -90,10 +94,11 @@ const Nav = (props) => {
               <MenuItem
                 style={{ display: "flex" }}
                 onClick={handleCloseNavMenu}
-                href="#connect"
               >
                 <Typography textAlign="center">
-                  <ListItem>Connect</ListItem>
+                  <Button style={{color:'#000'}} href="#connect">
+                    <ListItem>Connect</ListItem>
+                  </Button>
                 </Typography>
               </MenuItem>
               <MenuItem
@@ -101,7 +106,9 @@ const Nav = (props) => {
                 onClick={handleCloseNavMenu}
               >
                 <Typography textAlign="center">
-                  <ListItem>Projects</ListItem>
+                  <Button style={{color:'#000'}} href="#projects">
+                    <ListItem>Projects</ListItem>
+                  </Button>
                 </Typography>
               </MenuItem>
               <MenuItem
@@ -109,7 +116,9 @@ const Nav = (props) => {
                 onClick={handleCloseNavMenu}
               >
                 <Typography textAlign="center">
-                  <ListItem>About</ListItem>
+                  <Button style={{color:'#000'}}href="#about-me">
+                    <ListItem>About</ListItem>
+                  </Button>
                 </Typography>
               </MenuItem>
             </Menu>
@@ -124,33 +133,35 @@ const Nav = (props) => {
           >
             Abdifatah Osman
           </Typography>
-          <Box style={{}} sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          <Box
+            style={{}}
+            sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
+          >
             <Button
-            href="#connect"
-              style={{ color: "white",  }}
+              href="#connect"
+              style={{ color: "white" }}
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
             >
               Connect
             </Button>
             <Button
-            href="#projects"
-              style={{ color: "white", marginLeft:"15px" }}
+              href="#projects"
+              style={{ color: "white", marginLeft: "15px" }}
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white", display: "block" }}
             >
               Projects
             </Button>
             <Button
-              style={{ color: "white", marginLeft:"15px" }}
+              style={{ color: "white", marginLeft: "15px" }}
               onClick={handleCloseNavMenu}
-              href='#about-me'
+              href="#about-me"
               sx={{ my: 2, color: "white", display: "block" }}
             >
               About
             </Button>
           </Box>
-
 
           {props.user ? (
             <>
