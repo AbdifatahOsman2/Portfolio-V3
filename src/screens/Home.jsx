@@ -44,7 +44,7 @@ const Home = () => {
           <div className="project-1">
             <img src={p1}/>
             <div className="card_inner">
-            <p>Reprehenderit velit culpa commodo labore deserunt fugiat enim do nisi do est velit.</p>
+            <p>A redesigned website built for a client at a local mosque.</p>
             <Button className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
             <Button href='https://github.com/AbdifatahOsman2/Masjid-Website' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
@@ -52,7 +52,7 @@ const Home = () => {
           <div className="project-2">
             <img src={p2}/>
             <div className="card_inner">
-            <p>Reprehenderit velit culpa commodo labore deserunt fugiat enim do nisi do est velit.</p>
+            <p>A smiple .</p>
             <Button href='https://naughty-bose-d09e35.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
             <Button href='https://github.com/AbdifatahOsman2/Tofus-Anime' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
