@@ -6,7 +6,7 @@ import bg from "../Assets/BG (1).png";
 import p1 from '../Assets/Classes Page.png'
 import p2 from "../Assets/Register-PageReg.png"
 import p3 from "../Assets/Screenshot from 2022-01-12 21-45-41.jpg"
-import p4 from "../Assets/Salah Prototype.png"
+import p4 from "../Assets/Group 5 (1).png"
 import p5 from "../Assets/Home.png"
 import p6 from "../Assets/All-Posts-Page.png"
 import Aos from "aos";
@@ -46,23 +46,23 @@ const Home = () => {
             <div className="card_inner">
             <p>Reprehenderit velit culpa commodo labore deserunt fugiat enim do nisi do est velit.</p>
             <Button className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
-            <Button className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
+            <Button href='https://github.com/AbdifatahOsman2/Masjid-Website' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
           </div>
           <div className="project-2">
             <img src={p2}/>
             <div className="card_inner">
             <p>Reprehenderit velit culpa commodo labore deserunt fugiat enim do nisi do est velit.</p>
-            <Button className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
-            <Button className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
+            <Button href='https://naughty-bose-d09e35.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
+            <Button href='https://github.com/AbdifatahOsman2/Tofus-Anime' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
           </div>
           <div className="project-3">
             <img src={p3}/>
             <div className="card_inner">
             <p>Reprehenderit velit culpa commodo labore deserunt fugiat enim do nisi do est velit.</p>
-            <Button className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
-            <Button className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
+            <Button href='https://osman-express.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
+            <Button href='https://github.com/AbdifatahOsman2/Osman-Express' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
           </div>
           <div className="project-4">
@@ -70,10 +70,10 @@ const Home = () => {
             <div className="card_inner">
             <p>Reprehenderit velit culpa commodo labore deserunt fugiat enim do nisi do est velit.</p>
             <Button className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
-            <Button className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
+            <Button href='https://github.com/AbdifatahOsman2/React-Native-Anime-search-API' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
           </div>
-          <div className="project-5">
+          {/* <div className="project-5">
             <img src={p5}/>
             <div className="card_inner">
             <p>Reprehenderit velit culpa commodo labore deserunt fugiat enim do nisi do est velit.</p>
@@ -88,7 +88,7 @@ const Home = () => {
             <Button className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
             <Button className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -132,7 +132,7 @@ const Home = () => {
 
         <div className="other">
         <i id="design" class="fas fa-drafting-compass"></i>
-        <h1>My other skills</h1>
+        <h1>Other skills</h1>
         <p>On my down time I enjoy working with unity and C# to create small games. I also like to do some prototyping and design on Figma.</p>
         <ul>
           <li>GitHub</li>
