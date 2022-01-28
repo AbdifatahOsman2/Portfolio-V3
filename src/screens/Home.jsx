@@ -39,7 +39,7 @@ const Home = () => {
       </section>
       <section className="section-two">
           <h1>My Recent Works</h1>
-          <p id="projects">Here are a few design projects I've worked on recently. Want to see more? Email me.</p>
+          <p id="projects">Here are a few projects I've worked on recently.</p>
         <div className="projects"> 
           <div className="project-1">
             <img src={p1}/>

@@ -1,17 +1,23 @@
 $phone-breakpoint: 480px;
 
 .content {
+  @media only screen and (max-width: 480px) {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
   .section-one {
-
-    
     .container {
       position: relative;
-
+      @media only screen and (max-width: 480px) {
+        background-image: url('../Assets/momo.jpg');
+        width: 100vw;
+    }
       img {
         width: 100vw;
         height: 100vh;
         @media only screen and (max-width: 480px) {
-          background-image: url('../Assets/momo.jpg');
+          visibility: hidden;
       }
       }
       h1 {
