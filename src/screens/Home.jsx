@@ -52,7 +52,7 @@ const Home = () => {
           <div className="project-2">
             <img src={p2}/>
             <div className="card_inner">
-            <p>A smiple .</p>
+            <p>A simple multi page blog app using Airtable as the backend API.</p>
             <Button href='https://naughty-bose-d09e35.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
             <Button href='https://github.com/AbdifatahOsman2/Tofus-Anime' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
@@ -60,7 +60,7 @@ const Home = () => {
           <div className="project-3">
             <img src={p3}/>
             <div className="card_inner">
-            <p>Reprehenderit velit culpa commodo labore deserunt fugiat enim do nisi do est velit.</p>
+            <p>A routing and communication application for truckers and dispatchers created with flask python as backend.</p>
             <Button href='https://osman-express.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
             <Button href='https://github.com/AbdifatahOsman2/Osman-Express' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
@@ -68,7 +68,7 @@ const Home = () => {
           <div className="project-4">
             <img src={p4}/>
             <div className="card_inner">
-            <p>Reprehenderit velit culpa commodo labore deserunt fugiat enim do nisi do est velit.</p>
+            <p>My first React native app with page routing and displaying data from API.</p>
             <Button className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
             <Button href='https://github.com/AbdifatahOsman2/React-Native-Anime-search-API' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
@@ -164,10 +164,10 @@ const Home = () => {
       <button className="btn4">  <i class="fas fa-envelope-square"></i> Send me an Email</button>
       </Link>
       </div>
-      <p id="cp">Copyright © 2022 Abdifatah Osman</p>
       <Link href="#top">
       <i id="chevron" class="fas fa-chevron-up"></i>
       </Link>
+      <p id="cp">Copyright © 2022 Abdifatah Osman</p>
       </section>
     </div>
   );

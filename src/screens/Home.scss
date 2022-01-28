@@ -1,20 +1,19 @@
 $phone-breakpoint: 480px;
 
 .content {
-
   .section-one {
     .container {
       position: relative;
       @media only screen and (max-width: 480px) {
-        background-image: url('../Assets/momo.jpg');
+        background-image: url("../Assets/momo.jpg");
+      }
 
-    }
       img {
         width: 100vw;
         height: 100vh;
         @media only screen and (max-width: 480px) {
           visibility: hidden;
-      }
+        }
       }
       h1 {
         position: absolute;
@@ -106,7 +105,6 @@ $phone-breakpoint: 480px;
         flex-direction: column;
         flex-wrap: nowrap;
         margin: 0;
-
       }
       .project-1 {
         position: relative;
@@ -118,7 +116,7 @@ $phone-breakpoint: 480px;
         @media only screen and (max-width: 480px) {
           width: 380px;
           margin: 0px;
-          
+
           height: 250px;
         }
         .card_inner {
@@ -224,7 +222,7 @@ $phone-breakpoint: 480px;
         }
       }
       .project-3 {
-        background-color: #91e804;
+        background-color: #c57814ee;
         border-radius: 10px;
         width: 500px;
         height: 350px;
@@ -641,6 +639,7 @@ $phone-breakpoint: 480px;
     height: 100vh;
     margin: -30px 0px 0px 0px;
     position: relative;
+    
     color: white;
     @media only screen and (max-width: 480px) {
       margin: 0;
@@ -730,10 +729,12 @@ $phone-breakpoint: 480px;
       color: white;
       font-family: "Aleo", serif;
       font-size: 16px;
-      margin: 230px 1600px 0px 0px;
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
       @media only screen and (max-width: 480px) {
         font-size: 12px;
-        margin: 110px 210px 0px 0px;
+        
       }
     }
     #chevron {
@@ -756,4 +757,3 @@ $phone-breakpoint: 480px;
     }
   }
 }
-
