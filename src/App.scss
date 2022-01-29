@@ -3,16 +3,30 @@ body {
   text-align: center;
   scroll-behavior: smooth;
   /* color: white; */
+  @media only screen and (max-width: 480px) {
+    width: 100vw;
+    height: fit-content;
+  }
 }
 #loading {
   margin: 100px auto;
   padding: 0 auto;
+
 }
 .load {
   display: flex;
   flex-direction: row;
   margin: 350px 100px 0px 900px;
+  @media only screen and (max-width: 480px) {
+    margin: 320px 0px 0px 120px;
+  }
 }
 ::-webkit-scrollbar{
   display: none;
+}
+.App{
+  @media only screen and (max-width: 480px) {
+    width: 100vw;
+    height: fit-content;
+  }
 }
