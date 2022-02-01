@@ -7,18 +7,10 @@ $tablet: 768px;
       @media only screen and (max-width: 480px) {
         background-image: url("../Assets/momo.jpg");
       }
-      @media only screen and (max-width: 768px) {
-        background-image: url("../Assets/momo.jpg");
-        width: 100vw;
-      }
-
       img {
         width: 100vw;
         height: 100vh;
         @media only screen and (max-width: 480px) {
-          visibility: hidden;
-        }
-        @media only screen and (max-width: $tablet) {
           visibility: hidden;
         }
       }
@@ -41,14 +33,7 @@ $tablet: 768px;
           width: 100%;
           text-align: center;
         }
-        @media only screen and (max-width: 768px) {
-          font-size: 38px;
-          top: 35%;
-          right: 0%;
-          text-align: center;
-          width: 100%;
-          text-align: center;
-        }
+
       }
       p {
         position: absolute;
@@ -63,13 +48,6 @@ $tablet: 768px;
         font-weight: lighter;
         @media only screen and (max-width: 480px) {
           font-size: 20px;
-          top: 59%;
-          right: 0%;
-          text-align: center;
-          width: 100%;
-        }
-        @media only screen and (max-width: $tablet) {
-          font-size: 18px;
           top: 59%;
           right: 0%;
           text-align: center;
@@ -104,9 +82,7 @@ $tablet: 768px;
     @media only screen and (max-width: 480px) {
       height: fit-content;
     }
-    @media only screen and (max-width: $tablet) {
-      height: fit-content;
-    }
+
     height: 110vh;
     color: white;
     h1 {
@@ -131,11 +107,7 @@ $tablet: 768px;
         flex-wrap: nowrap;
         margin: 0;
       }
-      @media only screen and (max-width: $tablet) {
-        flex-direction: column;
-        flex-wrap: nowrap;
-        margin: 0;
-      }
+
       .project-1 {
         position: relative;
         background-color: #2196f3;
@@ -147,11 +119,6 @@ $tablet: 768px;
           width: 380px;
           margin: 0px;
           height: 250px;
-        }
-        @media only screen and (max-width: $tablet) {
-          width: 450px;
-          margin: 10px;
-          height: 300px;
         }
         .card_inner {
           opacity: 0;
@@ -210,11 +177,6 @@ $tablet: 768px;
           margin: 10px;
           height: 250px;
         }
-        @media only screen and (max-width: $tablet) {
-          width: 450px;
-          margin: 10px;
-          height: 300px;
-        }
         .card_inner {
           opacity: 0;
           transition: 500ms ease-in-out;
@@ -272,11 +234,6 @@ $tablet: 768px;
           margin: 10px;
           height: 250px;
         }
-        @media only screen and (max-width: $tablet) {
-          width: 450px;
-          margin: 10px;
-          height: 300px;
-        }
         .card_inner {
           opacity: 0;
           transition: 500ms ease-in-out;
@@ -333,11 +290,6 @@ $tablet: 768px;
           width: 380px;
           margin: 10px;
           height: 250px;
-        }
-        @media only screen and (max-width: $tablet) {
-          width: 450px;
-          margin: 10px;
-          height: 300px;
         }
         .card_inner {
           opacity: 0;
@@ -397,11 +349,6 @@ $tablet: 768px;
           margin: 10px;
           height: 250px;
         }
-        @media only screen and (max-width: $tablet) {
-          width: 450px;
-          margin: 10px;
-          height: 300px;
-        }
         .card_inner {
           opacity: 0;
           transition: 500ms ease-in-out;
@@ -460,11 +407,6 @@ $tablet: 768px;
           width: 380px;
           margin: 10px;
           height: 250px;
-        }
-        @media only screen and (max-width: $tablet) {
-          width: 450px;
-          margin: 10px;
-          height: 300px;
         }
         .card_inner {
           opacity: 0;
@@ -538,13 +480,6 @@ $tablet: 768px;
           letter-spacing: 3px;
           width: fit-content;
         }
-        @media only screen and (max-width: $tablet) {
-          align-self: center;
-          font-size: 19px;
-          padding: 0;
-          letter-spacing: 3px;
-          width: fit-content;
-        }
       }
     }
   }
@@ -553,10 +488,6 @@ $tablet: 768px;
     height: 100vh;
     @media only screen and (max-width: 480px) {
       height: 2400px;
-      background-color: #1d2026;
-    }
-    @media only screen and (max-width: $tablet) {
-      height: 2450px;
       background-color: #1d2026;
     }
     .heading {
@@ -581,12 +512,6 @@ $tablet: 768px;
         border-radius: 10px;
         width: 0;
       }
-      @media only screen and (max-width: $tablet) {
-        flex-direction: column;
-        margin: 0px;
-        border-radius: 10px;
-        width: 0;
-      }
       .front-end {
         background-color: rgb(255, 255, 255);
         border-right: 5px solid black;
@@ -602,13 +527,6 @@ $tablet: 768px;
           border-bottom: 5px solid black;
           width: 100vw;
         }
-        @media only screen and (max-width: $tablet) {
-          border: none;
-          border-radius: 10px;
-          margin-bottom: 5px;
-          width: 100vw;
-          text-align: center;
-        }
         h1 {
           margin: 20px 0px 0px 0px;
           font-size: 36px;
@@ -621,10 +539,6 @@ $tablet: 768px;
           font-size: 18px;
           margin: 20px 0px 0px 55px;
           font-weight: lighter;
-          @media only screen and (max-width: $tablet) {
-            margin: 10px 0px 0px 0px;
-            width: fit-content;
-          }
         }
         #code {
           font-size: 64px;
@@ -655,12 +569,6 @@ $tablet: 768px;
           border-bottom: 5px solid black;
           width: 100vw;
         }
-        @media only screen and (max-width: $tablet) {
-          border: none;
-          border-radius: 10px;
-          margin-bottom: 5px;
-          width: 100vw;
-        }
         h1 {
           margin: 20px 0px 0px 0px;
           font-size: 36px;
@@ -673,10 +581,6 @@ $tablet: 768px;
           font-size: 18px;
           margin: 20px 0px 0px 55px;
           font-weight: lighter;
-          @media only screen and (max-width: $tablet) {
-            margin: 10px 0px 0px 0px;
-            width: fit-content;
-          }
         }
         #server {
           font-size: 64px;
@@ -706,12 +610,7 @@ $tablet: 768px;
           border-radius: 0px;
           width: 100vw;
         }
-        @media only screen and (max-width: $tablet) {
-          border: none;
-          border-radius: 10px;
-          margin-bottom: 5px;
-          width: 100vw;
-        }
+
         h1 {
           margin: 20px 0px 0px 0px;
           font-size: 36px;
@@ -724,10 +623,6 @@ $tablet: 768px;
           font-size: 18px;
           margin: 20px 0px 0px 55px;
           font-weight: lighter;
-          @media only screen and (max-width: $tablet) {
-            margin: 10px 0px 0px 0px;
-            width: fit-content;
-          }
         }
         #design {
           font-size: 64px;
