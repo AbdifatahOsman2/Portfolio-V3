@@ -508,7 +508,7 @@ $tablet: 768px;
       flex-direction: row;
       @media only screen and (max-width: 480px) {
         flex-direction: column;
-        margin: 0px;
+        margin: 0px 0px 0px 0px;
         border-radius: 10px;
         width: 0;
       }
@@ -633,7 +633,6 @@ $tablet: 768px;
         ul {
           font-size: 24px;
           letter-spacing: 2px;
-
           li {
             margin: 20px;
             margin-top: 40px;
@@ -645,9 +644,8 @@ $tablet: 768px;
   .section-five {
     background-color: #3079f2;
     height: 100vh;
-    margin: -30px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     position: relative;
-    
     color: white;
     @media only screen and (max-width: 480px) {
       margin: 0;
