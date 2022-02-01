@@ -5,7 +5,7 @@ import { Button } from "@material-ui/core";
 import bg from "../Assets/BG (1).png";
 import p1 from '../Assets/Classes Page.png'
 import p2 from "../Assets/Register-PageReg.png"
-import p3 from "../Assets/Screenshot from 2022-01-12 21-45-41.jpg"
+import p3 from "../Assets/TFE1.jpg"
 import p4 from "../Assets/Group 5 (1).png"
 import p5 from "../Assets/Home.png"
 import p6 from "../Assets/All-Posts-Page.png"

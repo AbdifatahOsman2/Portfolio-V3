@@ -1,5 +1,5 @@
 $phone-breakpoint: 480px;
-
+$tablet: 768px;
 .content {
   .section-one {
     .container {
@@ -7,11 +7,18 @@ $phone-breakpoint: 480px;
       @media only screen and (max-width: 480px) {
         background-image: url("../Assets/momo.jpg");
       }
+      @media only screen and (max-width: 768px) {
+        background-image: url("../Assets/momo.jpg");
+        width: 100vw;
+      }
 
       img {
         width: 100vw;
         height: 100vh;
         @media only screen and (max-width: 480px) {
+          visibility: hidden;
+        }
+        @media only screen and (max-width: $tablet) {
           visibility: hidden;
         }
       }
@@ -34,6 +41,14 @@ $phone-breakpoint: 480px;
           width: 100%;
           text-align: center;
         }
+        @media only screen and (max-width: 768px) {
+          font-size: 38px;
+          top: 35%;
+          right: 0%;
+          text-align: center;
+          width: 100%;
+          text-align: center;
+        }
       }
       p {
         position: absolute;
@@ -48,6 +63,13 @@ $phone-breakpoint: 480px;
         font-weight: lighter;
         @media only screen and (max-width: 480px) {
           font-size: 20px;
+          top: 59%;
+          right: 0%;
+          text-align: center;
+          width: 100%;
+        }
+        @media only screen and (max-width: $tablet) {
+          font-size: 18px;
           top: 59%;
           right: 0%;
           text-align: center;
@@ -82,6 +104,9 @@ $phone-breakpoint: 480px;
     @media only screen and (max-width: 480px) {
       height: fit-content;
     }
+    @media only screen and (max-width: $tablet) {
+      height: fit-content;
+    }
     height: 110vh;
     color: white;
     h1 {
@@ -106,6 +131,11 @@ $phone-breakpoint: 480px;
         flex-wrap: nowrap;
         margin: 0;
       }
+      @media only screen and (max-width: $tablet) {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0;
+      }
       .project-1 {
         position: relative;
         background-color: #2196f3;
@@ -116,8 +146,12 @@ $phone-breakpoint: 480px;
         @media only screen and (max-width: 480px) {
           width: 380px;
           margin: 0px;
-
           height: 250px;
+        }
+        @media only screen and (max-width: $tablet) {
+          width: 450px;
+          margin: 10px;
+          height: 300px;
         }
         .card_inner {
           opacity: 0;
@@ -176,6 +210,11 @@ $phone-breakpoint: 480px;
           margin: 10px;
           height: 250px;
         }
+        @media only screen and (max-width: $tablet) {
+          width: 450px;
+          margin: 10px;
+          height: 300px;
+        }
         .card_inner {
           opacity: 0;
           transition: 500ms ease-in-out;
@@ -233,6 +272,11 @@ $phone-breakpoint: 480px;
           margin: 10px;
           height: 250px;
         }
+        @media only screen and (max-width: $tablet) {
+          width: 450px;
+          margin: 10px;
+          height: 300px;
+        }
         .card_inner {
           opacity: 0;
           transition: 500ms ease-in-out;
@@ -289,6 +333,11 @@ $phone-breakpoint: 480px;
           width: 380px;
           margin: 10px;
           height: 250px;
+        }
+        @media only screen and (max-width: $tablet) {
+          width: 450px;
+          margin: 10px;
+          height: 300px;
         }
         .card_inner {
           opacity: 0;
@@ -348,6 +397,11 @@ $phone-breakpoint: 480px;
           margin: 10px;
           height: 250px;
         }
+        @media only screen and (max-width: $tablet) {
+          width: 450px;
+          margin: 10px;
+          height: 300px;
+        }
         .card_inner {
           opacity: 0;
           transition: 500ms ease-in-out;
@@ -406,6 +460,11 @@ $phone-breakpoint: 480px;
           width: 380px;
           margin: 10px;
           height: 250px;
+        }
+        @media only screen and (max-width: $tablet) {
+          width: 450px;
+          margin: 10px;
+          height: 300px;
         }
         .card_inner {
           opacity: 0;
@@ -479,6 +538,13 @@ $phone-breakpoint: 480px;
           letter-spacing: 3px;
           width: fit-content;
         }
+        @media only screen and (max-width: $tablet) {
+          align-self: center;
+          font-size: 19px;
+          padding: 0;
+          letter-spacing: 3px;
+          width: fit-content;
+        }
       }
     }
   }
@@ -487,6 +553,10 @@ $phone-breakpoint: 480px;
     height: 100vh;
     @media only screen and (max-width: 480px) {
       height: 2400px;
+      background-color: #1d2026;
+    }
+    @media only screen and (max-width: $tablet) {
+      height: 2450px;
       background-color: #1d2026;
     }
     .heading {
@@ -507,7 +577,13 @@ $phone-breakpoint: 480px;
       flex-direction: row;
       @media only screen and (max-width: 480px) {
         flex-direction: column;
-        margin: 8px;
+        margin: 0px;
+        border-radius: 10px;
+        width: 0;
+      }
+      @media only screen and (max-width: $tablet) {
+        flex-direction: column;
+        margin: 0px;
         border-radius: 10px;
         width: 0;
       }
@@ -524,6 +600,14 @@ $phone-breakpoint: 480px;
           border: none;
           border-radius: 0px;
           border-bottom: 5px solid black;
+          width: 100vw;
+        }
+        @media only screen and (max-width: $tablet) {
+          border: none;
+          border-radius: 10px;
+          margin-bottom: 5px;
+          width: 100vw;
+          text-align: center;
         }
         h1 {
           margin: 20px 0px 0px 0px;
@@ -537,6 +621,10 @@ $phone-breakpoint: 480px;
           font-size: 18px;
           margin: 20px 0px 0px 55px;
           font-weight: lighter;
+          @media only screen and (max-width: $tablet) {
+            margin: 10px 0px 0px 0px;
+            width: fit-content;
+          }
         }
         #code {
           font-size: 64px;
@@ -565,6 +653,13 @@ $phone-breakpoint: 480px;
           border: none;
           border-radius: 0px;
           border-bottom: 5px solid black;
+          width: 100vw;
+        }
+        @media only screen and (max-width: $tablet) {
+          border: none;
+          border-radius: 10px;
+          margin-bottom: 5px;
+          width: 100vw;
         }
         h1 {
           margin: 20px 0px 0px 0px;
@@ -578,6 +673,10 @@ $phone-breakpoint: 480px;
           font-size: 18px;
           margin: 20px 0px 0px 55px;
           font-weight: lighter;
+          @media only screen and (max-width: $tablet) {
+            margin: 10px 0px 0px 0px;
+            width: fit-content;
+          }
         }
         #server {
           font-size: 64px;
@@ -605,6 +704,13 @@ $phone-breakpoint: 480px;
         @media only screen and (max-width: 480px) {
           border: none;
           border-radius: 0px;
+          width: 100vw;
+        }
+        @media only screen and (max-width: $tablet) {
+          border: none;
+          border-radius: 10px;
+          margin-bottom: 5px;
+          width: 100vw;
         }
         h1 {
           margin: 20px 0px 0px 0px;
@@ -618,6 +724,10 @@ $phone-breakpoint: 480px;
           font-size: 18px;
           margin: 20px 0px 0px 55px;
           font-weight: lighter;
+          @media only screen and (max-width: $tablet) {
+            margin: 10px 0px 0px 0px;
+            width: fit-content;
+          }
         }
         #design {
           font-size: 64px;
