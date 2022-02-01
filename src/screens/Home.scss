@@ -6,12 +6,16 @@ $tablet: 768px;
       position: relative;
       @media only screen and (max-width: 480px) {
         background-image: url("../Assets/momo.jpg");
+        width: 100vw;
+        height: 100vh;
       }
       img {
         width: 100vw;
         height: 100vh;
         @media only screen and (max-width: 480px) {
           visibility: hidden;
+          width: 100vw;
+          height: 100vh;
         }
       }
       h1 {
@@ -644,8 +648,9 @@ $tablet: 768px;
   .section-five {
     background-color: #3079f2;
     height: 100vh;
-    margin: 0px 0px 0px 0px;
+    margin: -30px 0px 0px 0px;
     position: relative;
+    
     color: white;
     @media only screen and (max-width: 480px) {
       margin: 0;
