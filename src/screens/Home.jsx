@@ -95,7 +95,7 @@ const Home = () => {
       <section className="section-three">
       <div className="container">
           <h1 id="about-me">About Me</h1>
-          <p>I am a full stack developer, passionate about creating unique web experiences to help grow your business. I love seeing code come to life while solving complex problems. Being a first generation graduate, I have a strong drive to succeed and overcome obstacles. A long-term goal of mine is to utilize my web development skills to create games that people will love to play.</p>
+          <p>I am a full stack developer, passionate about creating unique web experiences. I love seeing code come to life while solving complex problems. Being a first generation graduate, I have a strong drive to succeed and overcome obstacles. A long-term goal of mine is to utilize my web development skills to create games that people will love to play.</p>
       </div>
       </section>
 
