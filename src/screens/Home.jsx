@@ -53,14 +53,14 @@ const Home = () => {
             <img src={p4}/>
             <div className="card_inner">
             <p>MERN application that includes JWT authentication to post pet peeves.</p>
-            <Button href='https://naughty-bose-d09e35.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
-            <Button href='https://github.com/AbdifatahOsman2/Tofus-Anime' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
+            <Button href='https://peeved.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
+            <Button href='https://github.com/Lirucy/Peeved' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
           </div>
           <div className="project-3">
             <img src={p2}/>
             <div className="card_inner">
-            <p>A simple multi page blog app using Airtable as the backend API.</p>
+            <p>Anime social website where users can register and post about anime.</p>
             <Button href='https://osman-express.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
             <Button href='https://github.com/AbdifatahOsman2/Osman-Express' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
