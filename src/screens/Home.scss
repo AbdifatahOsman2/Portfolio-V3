@@ -511,8 +511,9 @@
       flex-direction: row;
       @media only screen and (max-width: 480px) {
         flex-direction: column;
-        margin: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 200px;
         border-radius: 10px;
+        align-items: center;
         width: 0;
       }
       .front-end {
@@ -526,9 +527,10 @@
         text-align: center;
         @media only screen and (max-width: 480px) {
           border: none;
-          border-radius: 0px;
-          border-bottom: 5px solid black;
-          width: 100vw;
+          border-radius: 8px;
+          width: 90vw;
+          height: auto;
+          margin: 20px 0px;
         }
         h1 {
           margin: 20px 0px 0px 0px;
@@ -536,12 +538,20 @@
           color: #000;
           font-family: "Roboto", sans-serif;
           letter-spacing: 4px;
+          @media screen and (max-width: 480px) {
+            font-size: 30px;
+            margin: 0px;
+          }
         }
         p {
           width: 300px;
           font-size: 18px;
           margin: 20px 0px 0px 55px;
           font-weight: lighter;
+          @media screen and (max-width: 480px) {
+            font-size: 20px;
+            margin: 20px 0px 0px 30px;
+          }
         }
         #code {
           font-size: 64px;
@@ -551,7 +561,9 @@
         ul {
           font-size: 24px;
           letter-spacing: 2px;
-
+          @media screen and (max-width: 480px) {
+            font-size: 20px;
+          }
           li {
             margin: 20px;
             margin-top: 40px;
@@ -568,9 +580,10 @@
         text-align: center;
         @media only screen and (max-width: 480px) {
           border: none;
-          border-radius: 0px;
-          border-bottom: 5px solid black;
-          width: 100vw;
+          border-radius: 8px;
+          width: 90vw;
+          height: auto;
+          margin: 20px 0px;
         }
         h1 {
           margin: 20px 0px 0px 0px;
@@ -578,12 +591,20 @@
           color: #000;
           font-family: "Roboto", sans-serif;
           letter-spacing: 4px;
+          @media screen and (max-width: 480px) {
+            font-size: 30px;
+            margin: 0px;
+          }
         }
         p {
           width: 300px;
           font-size: 18px;
           margin: 20px 0px 0px 55px;
           font-weight: lighter;
+          @media screen and (max-width: 480px) {
+            font-size: 20px;
+            margin: 20px 0px 0px 30px;
+          }
         }
         #server {
           font-size: 64px;
@@ -593,7 +614,9 @@
         ul {
           font-size: 24px;
           letter-spacing: 2px;
-
+          @media screen and (max-width: 480px) {
+            font-size: 20px;
+          }
           li {
             margin: 20px;
             margin-top: 40px;
@@ -610,23 +633,32 @@
         text-align: center;
         @media only screen and (max-width: 480px) {
           border: none;
-          border-radius: 0px;
-          width: 100vw;
+          border-radius: 8px;
+          width: 90vw;
           border-bottom: 5px solid black;
+          height: auto;
+          margin: 20px 0px;
         }
-
         h1 {
           margin: 20px 0px 0px 0px;
           font-size: 36px;
           color: #000;
           font-family: "Roboto", sans-serif;
           letter-spacing: 4px;
+          @media screen and (max-width: 480px) {
+            font-size: 30px;
+            margin: 0px;
+          }
         }
         p {
           width: 300px;
           font-size: 18px;
           margin: 20px 0px 0px 55px;
           font-weight: lighter;
+          @media screen and (max-width: 480px) {
+            font-size: 20px;
+            margin: 20px 0px 0px 30px;
+          }
         }
         #design {
           font-size: 64px;
@@ -636,6 +668,9 @@
         ul {
           font-size: 24px;
           letter-spacing: 2px;
+          @media screen and (max-width: 480px) {
+            font-size: 20px;
+          }
           li {
             margin: 20px;
             margin-top: 40px;
