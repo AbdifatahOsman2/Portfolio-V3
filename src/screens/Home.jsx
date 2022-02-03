@@ -61,7 +61,7 @@ const Home = () => {
             <img src={p2}/>
             <div className="card_inner">
             <p>Anime social website where users can register and post about anime.</p>
-            <Button href='https://osman-express.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
+            <Button href='#' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
             <Button href='https://github.com/AbdifatahOsman2/Osman-Express' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
           </div>
@@ -69,8 +69,8 @@ const Home = () => {
             <img src={p3}/>
             <div className="card_inner">
             <p>A routing and communication application for truckers and dispatchers created with flask python as backend.</p>
-            <Button className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
-            <Button href='https://github.com/AbdifatahOsman2/React-Native-Anime-search-API' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
+            <Button href='https://osman-express.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
+            <Button href='https://github.com/AbdifatahOsman2/Osman-Express' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
           </div>
           {/* <div className="project-5">
