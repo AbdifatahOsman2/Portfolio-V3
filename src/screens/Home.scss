@@ -301,13 +301,17 @@
           position: absolute;
           top: 40%;
           left: 0%;
+          @media only screen and (max-width: 480px) {
+            top: 30%;
+            left: 0%;
+          }
         }
         .btnOne {
           position: absolute;
           top: 65%;
           left: 52%;
           @media only screen and (max-width: 480px) {
-            top: 70%;
+            top: 65%;
             left: 52%;
           }
         }
@@ -316,7 +320,7 @@
           top: 65%;
           left: 25%;
           @media only screen and (max-width: 480px) {
-            top: 70%;
+            top: 65%;
             left: 20%;
           }
         }
