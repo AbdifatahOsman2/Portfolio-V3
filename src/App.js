@@ -9,6 +9,7 @@ import Home from "./screens/Home";
 import "./App.scss";
 import "./Components/Nav.scss";
 import "./screens/Home.scss";
+import './Components/PopUp.scss'
 
 function App() {
   const [loading, setLoading] = useState(false);

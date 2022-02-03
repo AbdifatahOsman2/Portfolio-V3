@@ -13,6 +13,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import { ListItem } from "@mui/material";
 import { useEffect } from "react";
+import PopUp from '../Components/PopUp'
 import Aos from "aos";
 
 const Nav = (props) => {
@@ -137,14 +138,7 @@ const Nav = (props) => {
             style={{}}
             sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
           >
-            <Button
-              href="#connect"
-              style={{ color: "white" }}
-              onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: "white", display: "block" }}
-            >
-              Connect
-            </Button>
+           <PopUp/>
             <Button
               href="#projects"
               style={{ color: "white", marginLeft: "15px" }}
