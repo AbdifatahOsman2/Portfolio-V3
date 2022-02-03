@@ -85,7 +85,6 @@
     @media only screen and (max-width: 480px) {
       height: fit-content;
     }
-
     height: 110vh;
     color: white;
     h1 {
@@ -120,7 +119,7 @@
         transition: 500ms ease-in-out;
         @media only screen and (max-width: 480px) {
           width: 380px;
-          margin: 0px;
+          margin: 10px;
           height: 250px;
         }
         .card_inner {
@@ -511,7 +510,7 @@
       flex-direction: row;
       @media only screen and (max-width: 480px) {
         flex-direction: column;
-        margin: 0px 0px 0px 200px;
+        margin: 0px 0px 0px 235px;
         border-radius: 10px;
         align-items: center;
         width: 0;

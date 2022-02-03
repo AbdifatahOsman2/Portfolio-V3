@@ -6,7 +6,7 @@ import bg from "../Assets/BG (1).png";
 import p1 from '../Assets/Classes Page.png'
 import p2 from "../Assets/Register-PageReg.png"
 import p3 from "../Assets/TFE1.jpg"
-import p4 from "../Assets/Group 5 (1).png"
+import p4 from "../Assets/peeved.jpg"
 import p5 from "../Assets/Home.png"
 import p6 from "../Assets/All-Posts-Page.png"
 import Aos from "aos";
@@ -50,25 +50,25 @@ const Home = () => {
             </div>
           </div>
           <div className="project-2">
-            <img src={p2}/>
+            <img src={p4}/>
             <div className="card_inner">
-            <p>A simple multi page blog app using Airtable as the backend API.</p>
+            <p>MERN application that includes JWT authentication to post pet peeves.</p>
             <Button href='https://naughty-bose-d09e35.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
             <Button href='https://github.com/AbdifatahOsman2/Tofus-Anime' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
           </div>
           <div className="project-3">
-            <img src={p3}/>
+            <img src={p2}/>
             <div className="card_inner">
-            <p>A routing and communication application for truckers and dispatchers created with flask python as backend.</p>
+            <p>A simple multi page blog app using Airtable as the backend API.</p>
             <Button href='https://osman-express.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
             <Button href='https://github.com/AbdifatahOsman2/Osman-Express' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
           </div>
           <div className="project-4">
-            <img src={p4}/>
+            <img src={p3}/>
             <div className="card_inner">
-            <p>My first React native app with page routing and displaying data from API.</p>
+            <p>A routing and communication application for truckers and dispatchers created with flask python as backend.</p>
             <Button className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
             <Button href='https://github.com/AbdifatahOsman2/React-Native-Anime-search-API' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
