@@ -155,7 +155,7 @@ const Home = () => {
       <button className="btn1">  <i id="linkedIn" class="fab fa-linkedin"></i>  Connect on LinkedIn</button>
       </Link>
       <Link href="https://www.facebook.com/">
-      <button className="btn2">  <i class="fab fa-facebook-square"></i>  Message me Facebook</button>
+      <button className="btn2">  <i class="fab fa-facebook-square"></i>  Message me on Facebook</button>
       </Link>
       <Link href="https://github.com/AbdifatahOsman2">
       <button className="btn3">  <i class="fab fa-github-square"></i>  Checkout my GitHub</button>
