@@ -145,6 +145,7 @@ const Home = () => {
         </div>
       </div>
       </section>
+      
       <section className="section-five">
       <div className="container">
         <h1>Lets Connect!</h1>
@@ -163,11 +164,8 @@ const Home = () => {
       <Link href="http://gmail.com/">
       <button className="btn4">  <i class="fas fa-envelope-square"></i> Send me an Email</button>
       </Link>
-      </div>
-      <Link href="#top">
-      <i id="chevron" class="fas fa-chevron-up"></i>
-      </Link>
       <p id="cp">Copyright © 2022 Abdifatah Osman</p>
+      </div>
       </section>
     </div>
   );
