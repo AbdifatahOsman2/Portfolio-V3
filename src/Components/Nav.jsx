@@ -13,7 +13,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import { ListItem } from "@mui/material";
 import { useEffect } from "react";
-import PopUp from '../Components/PopUp'
+import PopUp from "../Components/PopUp";
 import Aos from "aos";
 
 const Nav = (props) => {
@@ -93,12 +93,12 @@ const Nav = (props) => {
               }}
             >
               <MenuItem
-                style={{ display: "flex"}}
+                style={{ display: "flex" }}
                 onClick={handleCloseNavMenu}
               >
                 <Typography textAlign="center">
-                  <Button style={{color:'#000'}} href="#connect">
-                    <PopUp/>
+                  <Button style={{ color: "#000" }} href='https://pdfhost.io/v/qQ~riZq1w_res2'>
+                  <ListItem>Resume</ListItem>
                   </Button>
                 </Typography>
               </MenuItem>
@@ -107,7 +107,7 @@ const Nav = (props) => {
                 onClick={handleCloseNavMenu}
               >
                 <Typography textAlign="center">
-                  <Button style={{color:'#000'}} href="#projects">
+                  <Button style={{ color: "#000" }} href="#projects">
                     <ListItem>Projects</ListItem>
                   </Button>
                 </Typography>
@@ -117,7 +117,7 @@ const Nav = (props) => {
                 onClick={handleCloseNavMenu}
               >
                 <Typography textAlign="center">
-                  <Button style={{color:'#000'}}href="#about-me">
+                  <Button style={{ color: "#000" }} href="#about-me">
                     <ListItem>About</ListItem>
                   </Button>
                 </Typography>
@@ -138,7 +138,7 @@ const Nav = (props) => {
             style={{}}
             sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
           >
-           <PopUp/>
+            <PopUp />
             <Button
               href="#projects"
               style={{ color: "white", marginLeft: "15px" }}
