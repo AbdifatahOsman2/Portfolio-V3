@@ -34,7 +34,6 @@ export default function ResponsiveDialog() {
         onClose={handleClose}
         aria-labelledby="resume"
       >
-        <DialogTitle id="resume">{"Resume"}</DialogTitle>
             <img src={resume} id="resume-img" />
         <DialogActions>
           <Button style={{ color: "black" }} onClick={handleClose} autoFocus>
