@@ -711,7 +711,7 @@
       }
     }
     h1 {
-      margin:10px 0px 0px 0px;
+      margin:50px 0px 0px 0px;
       font-size: 40px;
       font-family: "Aleo", serif;
       @media only screen and (max-width: 480px) {
@@ -745,6 +745,7 @@
         font-size: 24px;
         transition: 200ms ease-in;
         font-family: "Aleo", serif;
+        margin: 10px 0px;
         @media only screen and (max-width: 480px) {
           font-size: 20px;
           width: 300px;

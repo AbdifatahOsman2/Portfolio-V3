@@ -24,22 +24,23 @@ export default function ResponsiveDialog() {
   };
 
   return (
-    <div>
+    <div className="pop-up">
       <Button style={{ color: "#3079f2" }} onClick={handleClickOpen}>
         Resume
       </Button>
       <Dialog
-        fullScreen={fullScreen}
+      fullScreen
+      id="Dialog"
         open={open}
         onClose={handleClose}
         aria-labelledby="resume"
       >
-            <img src={resume} id="resume-img" />
         <DialogActions>
           <Button style={{ color: "black" }} onClick={handleClose} autoFocus>
             <CloseIcon />
           </Button>
         </DialogActions>
+            <img src={resume} id="resume-img" />
       </Dialog>
     </div>
   );
