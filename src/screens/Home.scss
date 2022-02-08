@@ -499,7 +499,7 @@
   .section-four {
     height: 100vh;
     @media only screen and (max-width: 480px) {
-      height: 2300px;
+      height: 2200px;
     }
     .heading {
       margin-top: 50px;
@@ -565,12 +565,17 @@
           font-size: 64px;
           margin: 50px 0px;
           color: #3079f2;
+          @media screen and (max-width: 480px) {
+            font-size: 40px;
+          }
         }
         ul {
           font-size: 24px;
           letter-spacing: 2px;
           @media screen and (max-width: 480px) {
             font-size: 15px;
+            letter-spacing: 1px;
+            margin: 0;
           }
           li {
             margin: 20px;
@@ -618,12 +623,17 @@
           font-size: 64px;
           margin: 50px 0px;
           color: #3079f2;
+          @media screen and (max-width: 480px) {
+            font-size: 40px;
+          }
         }
         ul {
           font-size: 24px;
           letter-spacing: 2px;
           @media screen and (max-width: 480px) {
             font-size: 15px;
+            letter-spacing: 1px;
+            margin: 0;
           }
           li {
             margin: 20px;
@@ -672,12 +682,17 @@
           font-size: 64px;
           margin: 50px 0px;
           color: #3079f2;
+          @media screen and (max-width: 480px) {
+            font-size: 40px;
+          }
         }
         ul {
           font-size: 24px;
           letter-spacing: 2px;
           @media screen and (max-width: 480px) {
             font-size: 15px;
+            letter-spacing: 1px;
+            margin: 0;
           }
           li {
             margin: 20px;

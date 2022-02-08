@@ -25,7 +25,7 @@ export default function ResponsiveDialog() {
 
   return (
     <div className="pop-up">
-      <Button style={{ color: "#3079f2" }} onClick={handleClickOpen}>
+      <Button color="inherit" onClick={handleClickOpen}>
         Resume
       </Button>
       <Dialog
