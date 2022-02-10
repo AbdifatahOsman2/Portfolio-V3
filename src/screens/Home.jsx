@@ -5,7 +5,7 @@ import { Button } from "@material-ui/core";
 import bg from "../Assets/BG (1).png";
 import p1 from '../Assets/Classes Page.png'
 import p2 from "../Assets/Register-PageReg.png"
-import p3 from "../Assets/TFE1.jpg"
+import p3 from "../Assets/rerun.png"
 import p4 from "../Assets/peeved.jpg"
 import p5 from "../Assets/Home.png"
 import p6 from "../Assets/All-Posts-Page.png"
@@ -50,6 +50,14 @@ const Home = () => {
             </div>
           </div>
           <div className="project-2">
+            <img src={p2}/>
+            <div className="card_inner">
+            <p>Anime social website where users can register and blog about anime.</p>
+            <Button href='#' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
+            <Button href='https://github.com/AbdifatahOsman2/Osman-Express' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
+            </div>
+          </div>
+          <div className="project-3">
             <img src={p4}/>
             <div className="card_inner">
             <p>MERN application that includes JWT authentication to post pet peeves.</p>
@@ -57,20 +65,12 @@ const Home = () => {
             <Button href='https://github.com/Lirucy/Peeved' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
           </div>
-          <div className="project-3">
-            <img src={p2}/>
-            <div className="card_inner">
-            <p>Anime social website where users can register and post about anime.</p>
-            <Button href='#' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
-            <Button href='https://github.com/AbdifatahOsman2/Osman-Express' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
-            </div>
-          </div>
           <div className="project-4">
             <img src={p3}/>
             <div className="card_inner">
-            <p>A routing and communication application for truckers and dispatchers created with flask python as backend.</p>
+            <p>A routing and communication application for truckers and dispatchers created with flask python.</p>
             <Button href='https://osman-express.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
-            <Button href='https://github.com/AbdifatahOsman2/Osman-Express' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
+            <Button href='https://github.com/AbdifatahOsman2/TruckerApplication' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
           </div>
           {/* <div className="project-5">
