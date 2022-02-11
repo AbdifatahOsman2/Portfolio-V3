@@ -124,7 +124,6 @@ const Nav = (props) => {
               </MenuItem>
             </Menu>
           </Box>
-
           <Typography
             id="logo-text"
             variant="h6"

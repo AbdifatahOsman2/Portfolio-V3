@@ -53,8 +53,8 @@ const Home = () => {
             <img src={p2}/>
             <div className="card_inner">
             <p>Anime social website where users can register and blog about anime.</p>
-            <Button href='#' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
-            <Button href='https://github.com/AbdifatahOsman2/Osman-Express' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
+            <Button href='https://anime-bloggin.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
+            <Button href='https://github.com/AbdifatahOsman2/Tofu-Animev2' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
           </div>
           <div className="project-3">
@@ -69,8 +69,8 @@ const Home = () => {
             <img src={p3}/>
             <div className="card_inner">
             <p>A routing and communication application for truckers and dispatchers created with flask python.</p>
-            <Button href='https://osman-express.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
-            <Button href='https://github.com/AbdifatahOsman2/TruckerApplication' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
+            <Button href='https://truckerapp.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
+            <Button href='https://github.com/AbdifatahOsman2/TruckerAppv2' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
           </div>
           {/* <div className="project-5">
