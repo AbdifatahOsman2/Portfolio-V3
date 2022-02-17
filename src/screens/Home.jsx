@@ -53,7 +53,7 @@ const Home = () => {
             <img src={p2}/>
             <div className="card_inner">
             <p>Anime social website where users can register and blog about anime.</p>
-            <Button href='https://anime-bloggin.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
+            <Button href='https://tofus-anime.netlify.app/' className="btnOne" variant="contained" endIcon={<SendIcon />}>visit</Button>
             <Button href='https://github.com/AbdifatahOsman2/Tofu-Animev2' className="btnTwo" variant="contained" endIcon={<GitHubIcon />}>github</Button>
             </div>
           </div>
